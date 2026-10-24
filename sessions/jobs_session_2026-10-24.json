@@ -1,0 +1,409 @@
+{
+  "session_date": "2026-10-24",
+  "search_params": {
+    "keywords": [
+      "Senior Data Engineer",
+      "Lead Data Engineer",
+      "Data Engineering Manager",
+      "AI Engineer",
+      "ML Engineer",
+      "Data Architect",
+      "GCP Data Engineer",
+      "Analytics Lead",
+      "AI Solution Architect",
+      "Head of Data",
+      "Head of Analytics",
+      "Head of AI",
+      "Director Analytics",
+      "Director Data",
+      "VP Data",
+      "Chief Data Officer",
+      "Gerente de Datos",
+      "Director de Datos",
+      "Lider de Datos",
+      "Arquitecto de Datos"
+    ],
+    "top_n": 10
+  },
+  "platforms_searched": [
+    "Indeed",
+    "LinkedIn",
+    "Michael Page",
+    "Glassdoor",
+    "Computrabajo",
+    "SmartRecruiters",
+    "BlueSteps",
+    "Acierta Headhunter",
+    "Magneto365",
+    "Más Empleo ANDI",
+    "T-Mapp",
+    "Targeted companies (watchlist)"
+  ],
+  "platforms_failed": [
+    "LinkedIn",
+    "Glassdoor",
+    "SmartRecruiters",
+    "BlueSteps",
+    "Acierta Headhunter",
+    "Más Empleo ANDI",
+    "T-Mapp"
+  ],
+  "zero_results": [
+    "LinkedIn",
+    "Glassdoor",
+    "SmartRecruiters",
+    "BlueSteps",
+    "Acierta Headhunter",
+    "Más Empleo ANDI",
+    "T-Mapp"
+  ],
+  "platform_method": {
+    "Indeed": "MCP search_jobs + get_job_details (funcionó)",
+    "LinkedIn": "curl bloqueado por proxy; WebSearch site: solo devolvió perfiles/páginas de carrera, sin ofertas",
+    "Michael Page": "curl y WebFetch bloqueados; WebSearch (snippet de listado)",
+    "Glassdoor": "curl bloqueado; WebSearch sin listados",
+    "Computrabajo": "curl y WebFetch bloqueados; WebSearch devolvió pocos resultados irrelevantes",
+    "SmartRecruiters": "curl bloqueado; WebSearch sin resultados del dominio",
+    "BlueSteps": "curl bloqueado (no reintentado); WebSearch sin resultados",
+    "Acierta Headhunter": "curl y WebFetch bloqueados; WebSearch sin resultados",
+    "Magneto365": "curl bloqueado; WebSearch (snippets de listado)",
+    "Más Empleo ANDI": "curl bloqueado; WebSearch sin resultados",
+    "T-Mapp": "curl bloqueado; WebSearch sin resultados",
+    "Targeted companies": "APIs ATS (Greenhouse/Lever/Ashby) bloqueadas; WebSearch sin vacantes nuevas confirmadas"
+  },
+  "all_jobs": [
+    {
+      "platform": "Indeed",
+      "company": "WTW",
+      "role": "Director de Data Strategy e Inteligencia Artificial LATAM - Health & Benefits",
+      "url": "https://to.indeed.com/aa8gvjwbsjkj",
+      "date_found": "2026-10-24",
+      "description": "Publicado 2026-10-08, Medellín (ubicación flexible LATAM). Liderar la agenda regional de data strategy e IA: hoja de ruta de IA/datos/automatización, priorización de casos de uso y business cases, gobierno del portafolio, Responsible AI, preparación de datos (ownership, calidad, lineage), estrategia de adopción y gestión del cambio, liderazgo de equipo regional de Senior Business Analysts, AI Leads y profesionales de datos. Requisitos: 10+ años en transformación/tecnología/datos; 4+ años liderando agendas de IA/data strategy; portafolios regionales en organizaciones matriciales (sectores regulados valorado); responsabilidad sobre presupuesto y business cases; entendimiento de IA/ML, GenAI, gobierno de datos, Responsible AI (no requiere ser especialista en modelos); español e inglés avanzados, portugués valorado. Proceso en 5 etapas incl. caso práctico de priorización de portafolio.",
+      "score": 90,
+      "score_breakdown": {
+        "skills_match": 14,
+        "responsibilities_match": 18,
+        "title_match": 15,
+        "seniority_fit": 15,
+        "industry_fit": 8,
+        "location": 5,
+        "strategic_ownership_fit": 15
+      },
+      "tier": "top",
+      "previously_seen": false,
+      "url_broken": false,
+      "notes": "Rol más estratégico/de negocio que técnico; inglés 'avanzado' (candidato B2); ubicación listada Medellín pero flexible LATAM; modalidad por definir."
+    },
+    {
+      "platform": "Indeed",
+      "company": "Coupa",
+      "role": "Sr Director - AI Delivery",
+      "url": "https://to.indeed.com/aafbtt9xjydn",
+      "date_found": "2026-10-24",
+      "description": "Publicado 2026-09-24, Bogotá, Remote. Lidera la organización de ingeniería de AI Delivery empresarial: AI Engineers, AI Solution Architects, AI Operations. Entrega de agentes, workflows agénticos, RAG, asistentes de conocimiento, orquestación multi-agente; estándares de ingeniería (prompting, MCP, APIs, orquestación); portafolio (capacidad, roadmaps, reporting ejecutivo); AI Ops (monitoreo, observabilidad, costos); gobierno y Responsible AI (crea el AI Governance council); presupuesto y proveedores; liderazgo organizacional. Requisitos: 12-15+ años liderando organizaciones de tecnología empresarial; 7+ años gestionando equipos de ingeniería/entrega/datos; experiencia entregando AI/ML a escala empresarial; LLMs, RAG, agentes, MCP, APIs; organizaciones globales; comunicación ejecutiva; gestión de proveedores/SI. Preferido: Gemini, Vertex AI, apigee, Claude; Responsible AI; CI/CD.",
+      "score": 102,
+      "score_breakdown": {
+        "skills_match": 22,
+        "responsibilities_match": 22,
+        "title_match": 15,
+        "seniority_fit": 15,
+        "industry_fit": 8,
+        "location": 5,
+        "strategic_ownership_fit": 15
+      },
+      "tier": "top",
+      "previously_seen": false,
+      "url_broken": false,
+      "notes": "Oferta publicada hace ~30 días (fuera de ventana de 14 días) - verificar que siga abierta. Pide 12-15+ años y experiencia en orgs globales; Vertex AI preferido (coincide). Sin salario publicado."
+    },
+    {
+      "platform": "Indeed",
+      "company": "TMF Group",
+      "role": "Data Architect",
+      "url": "https://to.indeed.com/aadylzvyrtq4",
+      "date_found": "2026-10-24",
+      "description": "Publicado 2026-09-26, Bogotá, full time. Data Intelligence practice: define la arquitectura objetivo de datos (ingesta, lake/lakehouse/warehouse, semántica), estándares y patrones (medallion, CDC, APIs), modelado de datos (dimensional, 3NF, data vault), integración (batch, CDC, streaming, REST), plataforma en Azure, Fabric, Databricks y Snowflake, gobierno/calidad/MDM/seguridad (Purview, Unity Catalog, Collibra), fundamentos de datos para ML/GenAI, mentoría a ingenieros de datos y BI, participación en actividades con clientes. Requisitos: 10+ años en datos, 4+ en arquitectura de datos; modelado experto; experiencia profunda en Azure (ADF, Azure SQL, Synapse, Databricks) y Fabric; Snowflake es plus; SQL avanzado; integración ETL/ELT/CDC; gobierno; capas semánticas Power BI/Tableau; Python/PySpark; DevOps/CI-CD; equipos ágiles. Preferido: conocimiento de fondos privados, mercados de capitales, certificaciones Azure/Databricks/DAMA CDMP.",
+      "score": 80,
+      "score_breakdown": {
+        "skills_match": 18,
+        "responsibilities_match": 22,
+        "title_match": 13,
+        "seniority_fit": 14,
+        "industry_fit": 8,
+        "location": 5,
+        "strategic_ownership_fit": 0
+      },
+      "tier": "top",
+      "previously_seen": false,
+      "url_broken": false,
+      "notes": "REQUIERE Azure Data Factory (gap conocido) y experiencia profunda en Azure/Fabric; Snowflake plus. Publicada hace ~4 semanas. Rol de arquitectura propia pero con trabajo de cara a clientes y equipos ágiles."
+    },
+    {
+      "platform": "WebSearch (Scotiabank Careers)",
+      "company": "Scotiabank",
+      "role": "Data Engineer Lead (Bogotá)",
+      "url": "https://jobs.scotiabank.com/job/Bogota-Data-Engineer-Lead-DC/601585817/",
+      "date_found": "2026-10-24",
+      "description": "Bogotá. Supervisa un equipo de hasta 3 Data Engineers, foco en Google Cloud Platform. (Solo snippet de búsqueda; no se pudo abrir el JD completo.)",
+      "score": 84,
+      "score_breakdown": {
+        "skills_match": 26,
+        "responsibilities_match": 20,
+        "title_match": 11,
+        "seniority_fit": 12,
+        "industry_fit": 10,
+        "location": 5,
+        "strategic_ownership_fit": 0
+      },
+      "tier": "top",
+      "previously_seen": false,
+      "url_broken": true,
+      "notes": "No verificado - snippet únicamente; fecha desconocida; confirmar vigencia. Banca + GCP encaja bien; alcance de liderazgo pequeño (3 ingenieros)."
+    },
+    {
+      "platform": "Remotive (via WebSearch)",
+      "company": "Renting Colombia",
+      "role": "Data Manager, Analytics and AI",
+      "url": "https://remotive.com/remote/jobs/data/data-manager-analytics-and-ai-6201260",
+      "date_found": "2026-10-24",
+      "description": "Definir y liderar la estrategia corporativa de Datos, Analítica e IA. (Solo snippet de búsqueda.)",
+      "score": 102,
+      "score_breakdown": {
+        "skills_match": 22,
+        "responsibilities_match": 22,
+        "title_match": 15,
+        "seniority_fit": 15,
+        "industry_fit": 8,
+        "location": 5,
+        "strategic_ownership_fit": 15
+      },
+      "tier": "top",
+      "previously_seen": true,
+      "url_broken": false,
+      "notes": "Solo snippet."
+    },
+    {
+      "platform": "Indeed",
+      "company": "SoftwareOne",
+      "role": "Senior Data & AI Architect",
+      "url": "https://to.indeed.com/aa7ydkwqvld8",
+      "date_found": "2026-10-24",
+      "description": "Publicado 2026-10-23, Bogotá. Equipo Data & AI: define y evoluciona arquitecturas de datos, gobierno e IA con estándares reutilizables; lidera diseño de soluciones para oportunidades estratégicas; decisiones en Microsoft Fabric, Azure, AWS y Databricks; asesor técnico y mentor. Requisitos: arquitecturas empresariales de datos presentadas a ejecutivos; Azure y Microsoft Fabric (Lakehouse, Warehouse, Data Factory, OneLake, Power BI, SQL, PySpark/Spark); AWS (S3, Glue, Lake Formation, Redshift) con Databricks multi-cloud; gobierno avanzado (Purview, catálogos, lineage, DAMA-DMBOK); soluciones GenAI (RAG, embeddings, vector DBs). Deseable: DP-600/DEA-C01, PL-300, AI-900. Aviso: la vacante es para oportunidades futuras y no representa necesidad inmediata de contratación (talent pool).",
+      "score": 79,
+      "score_breakdown": {
+        "skills_match": 24,
+        "responsibilities_match": 18,
+        "title_match": 13,
+        "seniority_fit": 13,
+        "industry_fit": 6,
+        "location": 5,
+        "strategic_ownership_fit": 0
+      },
+      "tier": "tracker_only",
+      "previously_seen": false,
+      "url_broken": false,
+      "notes": "Aviso explícito de 'talent pool / sin necesidad inmediata'. Pide Data Factory/Fabric (Azure) pero también AWS Glue/Lake Formation/DAMA/RAG (coincide). Rol consultor de cara a clientes (partner de software)."
+    },
+    {
+      "platform": "Indeed",
+      "company": "Gallagher",
+      "role": "Lead Data Solutions & AI Engineer",
+      "url": "https://to.indeed.com/aanfxfqwynvy",
+      "date_found": "2026-10-24",
+      "description": "Publicado 2026-10-08, Bogotá. Diseña y entrega pipelines ETL/ELT para BI e IA en Azure y on-prem: Azure Data Factory, Databricks, Synapse, Azure SQL, SQL Server, T-SQL, SSIS; calidad, lineage y gobierno; feature stores; desarrollo, fine-tuning y despliegue de modelos de IA/ML; seguridad Azure (RBAC, Key Vault). Requisitos: 10+ años en soluciones de datos, 7+ en plataforma Microsoft; 7+ años con SQL Server; inglés avanzado; ADF, Synapse, Functions, SSIS; CI/CD; Python (NumPy, Pandas, PyArrow); IA/ML en la nube con vector DBs; liderar un equipo de proyecto y estimaciones.",
+      "score": 69,
+      "score_breakdown": {
+        "skills_match": 16,
+        "responsibilities_match": 16,
+        "title_match": 11,
+        "seniority_fit": 13,
+        "industry_fit": 8,
+        "location": 5,
+        "strategic_ownership_fit": 0
+      },
+      "tier": "tracker_only",
+      "previously_seen": false,
+      "url_broken": false,
+      "notes": "REQUIERE Azure Data Factory y stack Microsoft/SQL Server/SSIS (gap). Inglés avanzado. Sin salario."
+    },
+    {
+      "platform": "Indeed",
+      "company": "Auxis",
+      "role": "Analytics Lead Manager",
+      "url": "https://to.indeed.com/aazskx9hjx7c",
+      "date_found": "2026-10-24",
+      "description": "Publicado 2026-09-03, Bogotá. (Solo tarjeta de Indeed; sin JD completo.)",
+      "score": 67,
+      "score_breakdown": {
+        "skills_match": 15,
+        "responsibilities_match": 15,
+        "title_match": 15,
+        "seniority_fit": 12,
+        "industry_fit": 5,
+        "location": 5,
+        "strategic_ownership_fit": 0
+      },
+      "tier": "tracker_only",
+      "previously_seen": true,
+      "url_broken": false,
+      "notes": "Solo tarjeta, sin JD. Auxis es BPO/outsourcing."
+    },
+    {
+      "platform": "Indeed",
+      "company": "Keyrus Colombia",
+      "role": "AI & Data Practice Lead",
+      "url": "https://to.indeed.com/aayg6nrj8zpl",
+      "date_found": "2026-10-24",
+      "description": "Publicado 2026-07-22, Bogotá, permanente. (Solo tarjeta de Indeed; sin JD completo.)",
+      "score": 76,
+      "score_breakdown": {
+        "skills_match": 18,
+        "responsibilities_match": 18,
+        "title_match": 15,
+        "seniority_fit": 14,
+        "industry_fit": 6,
+        "location": 5,
+        "strategic_ownership_fit": 0
+      },
+      "tier": "tracker_only",
+      "previously_seen": true,
+      "url_broken": false,
+      "notes": "Solo tarjeta, sin JD; publicación de hace >3 meses."
+    },
+    {
+      "platform": "Indeed",
+      "company": "Aimpoint Digital",
+      "role": "Head of Data Engineering Services - LATAM",
+      "url": "https://aimpoint-digital.breezy.hr/p/445cd89e1a78-head-of-data-engineering-services-latam",
+      "date_found": "2026-10-24",
+      "description": "Medellín, Colombia. Consultora de datos y analítica (US/UK) busca un Head of Data Engineering Services LATAM para construir y gestionar el equipo regional; requiere 10+ años en consultoría o similar y 8+ años construyendo y gestionando equipos exitosos. (Solo snippet de búsqueda; no se pudo abrir el JD.)",
+      "score": 78,
+      "score_breakdown": {
+        "skills_match": 18,
+        "responsibilities_match": 20,
+        "title_match": 15,
+        "seniority_fit": 15,
+        "industry_fit": 5,
+        "location": 5,
+        "strategic_ownership_fit": 0
+      },
+      "tier": "tracker_only",
+      "previously_seen": false,
+      "url_broken": true,
+      "notes": "No verificado - solo snippet de WebSearch (egress bloqueado), fecha desconocida. Consultora; probable requisito Snowflake/Databricks. Medellín."
+    },
+    {
+      "platform": "Michael Page",
+      "company": "Michael Page (cliente confidencial)",
+      "role": "Data Architect",
+      "url": "https://michaelpage.com.co/jobs/data",
+      "date_found": "2026-10-24",
+      "description": "Bogotá D.C., on-site. Especialista en Data Architect con 5+ años, habilidades en MDM, gobierno y calidad de datos. (Solo snippet de búsqueda; sin fecha.)",
+      "score": 66,
+      "score_breakdown": {
+        "skills_match": 18,
+        "responsibilities_match": 15,
+        "title_match": 13,
+        "seniority_fit": 10,
+        "industry_fit": 5,
+        "location": 5,
+        "strategic_ownership_fit": 0
+      },
+      "tier": "tracker_only",
+      "previously_seen": false,
+      "url_broken": true,
+      "notes": "No verificado - snippet sin fecha; página de listado, no detalle."
+    },
+    {
+      "platform": "Yuno (watchlist)",
+      "company": "Yuno",
+      "role": "Head of Data Engineering (LATAM remote)",
+      "url": "https://www.remotedxb.com/job/head-of-data-engineering-yuno",
+      "date_found": "2026-10-24",
+      "description": "Head de Data Engineering, LATAM remoto, fintech de orquestación de pagos (Serie B). El watchlist indica que la vacante aparece en sitios espejo (Built In) pero RemoteDXB muestra 'no longer accepting applications'. No se pudo abrir el ATS (egress bloqueado).",
+      "score": 77,
+      "score_breakdown": {
+        "skills_match": 14,
+        "responsibilities_match": 18,
+        "title_match": 15,
+        "seniority_fit": 15,
+        "industry_fit": 10,
+        "location": 5,
+        "strategic_ownership_fit": 0
+      },
+      "tier": "tracker_only",
+      "previously_seen": false,
+      "url_broken": true,
+      "notes": "unverified - mirror only. Estado incierto (posible cerrada).",
+      "discovered_via": "job-scout"
+    }
+  ],
+  "discarded_jobs": [
+    {
+      "company": "Aimpoint Digital",
+      "role": "Lead Data Engineer 2026- US, COL",
+      "url": "https://to.indeed.com/aadlx92bwp7q",
+      "score": 45
+    },
+    {
+      "company": "EPAM Systems",
+      "role": "Lead Data Engineer",
+      "url": "https://to.indeed.com/aa2b9dk6gfk7",
+      "score": 49
+    },
+    {
+      "company": "Ci&T",
+      "role": "[Job - 32354] AI Solution Architect, Colombia",
+      "url": "https://to.indeed.com/aay68by74rnn",
+      "score": 50
+    },
+    {
+      "company": "Keyrus Colombia",
+      "role": "AI Governance Lead",
+      "url": "https://to.indeed.com/aadvdzg8wcy4",
+      "score": 32
+    },
+    {
+      "company": "WAI",
+      "role": "Director, Enterprise AI Automation & Transformation",
+      "url": "https://to.indeed.com/aakx7qnhpjcv",
+      "score": 54
+    },
+    {
+      "company": "Hire South",
+      "role": "AI Systems Architect",
+      "url": "https://to.indeed.com/aac28njtjck7",
+      "score": 47
+    },
+    {
+      "company": "Deuna",
+      "role": "Product Head of AI",
+      "url": "https://to.indeed.com/aadlwwjwzzpr",
+      "score": 54
+    },
+    {
+      "company": "Adecco Servicios Colombia",
+      "role": "Senior Data Engineer Líder de BI",
+      "url": "https://www.magneto365.com/co/empleos/senior-data-engineer-lider-de-inteligencia-de-negocios-1039300",
+      "score": 50
+    },
+    {
+      "company": "IRIS CF",
+      "role": "Líder de Data Management",
+      "url": "https://www.magneto365.com/co/empleos/lider-de-data-management-985026",
+      "score": 52
+    },
+    {
+      "company": "IRIS CF",
+      "role": "Líder de Ingeniería de Datos",
+      "url": "https://www.magneto365.com/co/empleos/lider-de-ingenieria-de-datos-991391",
+      "score": 52
+    },
+    {
+      "company": "Platzi",
+      "role": "Head of Data",
+      "url": "https://jobs.foundationcapital.com/companies/platzi/jobs/51400946-head-of-data",
+      "score": 0
+    }
+  ]
+}
