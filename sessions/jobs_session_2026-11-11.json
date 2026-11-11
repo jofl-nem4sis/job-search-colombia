@@ -1,0 +1,485 @@
+{
+ "session_date": "2026-11-11",
+ "search_params": {
+  "keywords": [
+   "Senior Data Engineer",
+   "Lead Data Engineer",
+   "Data Engineering Manager",
+   "AI Engineer",
+   "ML Engineer",
+   "Data Architect",
+   "GCP Data Engineer",
+   "Analytics Lead",
+   "AI Solution Architect",
+   "Head of Data",
+   "Head of Analytics",
+   "Head of AI",
+   "Director Analytics",
+   "Director Data",
+   "VP Data",
+   "Chief Data Officer",
+   "Gerente de Datos",
+   "Director de Datos",
+   "Lider de Datos",
+   "Arquitecto de Datos"
+  ],
+  "top_n": 10
+ },
+ "platforms_searched": [
+  "Indeed",
+  "LinkedIn",
+  "Michael Page",
+  "Glassdoor",
+  "Computrabajo",
+  "SmartRecruiters",
+  "BlueSteps",
+  "Acierta Headhunter",
+  "Magneto365",
+  "Más Empleo ANDI",
+  "T-Mapp",
+  "Targeted companies (watchlist)"
+ ],
+ "platforms_failed": [
+  "LinkedIn",
+  "Michael Page",
+  "Glassdoor",
+  "Computrabajo",
+  "SmartRecruiters",
+  "BlueSteps",
+  "Acierta Headhunter",
+  "Magneto365",
+  "Más Empleo ANDI",
+  "T-Mapp",
+  "Targeted companies (ATS directos)"
+ ],
+ "zero_results": [
+  "Glassdoor",
+  "SmartRecruiters",
+  "BlueSteps",
+  "Acierta Headhunter",
+  "Más Empleo ANDI",
+  "T-Mapp"
+ ],
+ "platform_method": {
+  "Indeed": "MCP search_jobs + get_job_details (OK)",
+  "LinkedIn": "curl y WebFetch bloqueados (egress); WebSearch site: sin fichas de empleo",
+  "Michael Page": "curl/WebFetch bloqueados; WebSearch devolvió solo un rol junior",
+  "Glassdoor": "no accesible; sin resultados vía WebSearch",
+  "Computrabajo": "curl/WebFetch bloqueados; WebSearch con snippets sin roles senior de datos",
+  "SmartRecruiters": "no accesible",
+  "BlueSteps": "no accesible (membresía)",
+  "Acierta Headhunter": "no accesible",
+  "Magneto365": "WebSearch únicamente (snippets: Colfondos jun-2026, Jefe de IA sin fecha)",
+  "Más Empleo ANDI": "no accesible",
+  "T-Mapp": "no accesible",
+  "Targeted companies (watchlist)": "ATS (Lever/Ashby/Greenhouse) bloqueados; solo WebSearch agregadores"
+ },
+ "all_jobs": [
+  {
+   "platform": "Indeed",
+   "company": "Scotiabank",
+   "role": "Director, Data Engineering (Bogotá)",
+   "url": "https://jobs.scotiabank.com/job/Bogota-Director%2C-Data-Engineering-DC/604798617/",
+   "date_found": "2026-10-28",
+   "description": "Director of Data Engineering, Bogotá. Prior sessions scored 96; CazVid copy indicates validity until Oct 27 2026, probably expired.",
+   "score": 107,
+   "score_breakdown": {
+    "skills_match": 26,
+    "responsibilities_match": 22,
+    "title_match": 15,
+    "seniority_fit": 14,
+    "industry_fit": 10,
+    "location": 5,
+    "strategic_ownership_fit": 15
+   },
+   "tier": "top",
+   "previously_seen": true,
+   "url_broken": true,
+   "notes": "Vigencia declarada hasta 27-oct-2026: probablemente cerrada; no se pudo verificar (jobs.scotiabank.com bloqueado)."
+  },
+  {
+   "platform": "Búsqueda web (agregadores)",
+   "company": "Kala (vía Marathon Talent)",
+   "role": "Head of Data",
+   "url": "https://www.careers-page.com/marathon-talent/job/X95459X3",
+   "date_found": "2026-11-11",
+   "description": "Head of Data in Bogotá reporting to CEO at LATAM fintech for underbanked customers. Seen in prior sessions (score 92).",
+   "score": 106,
+   "score_breakdown": {
+    "skills_match": 24,
+    "responsibilities_match": 22,
+    "title_match": 15,
+    "seniority_fit": 15,
+    "industry_fit": 10,
+    "location": 5,
+    "strategic_ownership_fit": 15
+   },
+   "tier": "top",
+   "previously_seen": true,
+   "url_broken": true,
+   "notes": "Ya visto en sesión anterior; no re-verificado en esta corrida (careers-page.com bloqueado) - mirror/agregador.",
+   "discovered_via": "job-scout"
+  },
+  {
+   "platform": "Búsqueda web (agregadores)",
+   "company": "Plata Card",
+   "role": "Head of Analytics [Colombian market]",
+   "url": "https://wantapply.com/head-of-analytics-at-plata-card",
+   "date_found": "2026-11-11",
+   "description": "Head of Analytics for the Colombian market at Plata Card (fintech), remote Colombia/Mexico, GMT-5/GMT-6. Snippet only; JD not fetched (host blocked).",
+   "score": 92,
+   "score_breakdown": {
+    "skills_match": 15,
+    "responsibilities_match": 18,
+    "title_match": 15,
+    "seniority_fit": 14,
+    "industry_fit": 10,
+    "location": 5,
+    "strategic_ownership_fit": 15
+   },
+   "tier": "top",
+   "previously_seen": false,
+   "url_broken": true,
+   "notes": "Solo snippet de agregador; sin fecha visible - no verificado en ATS propio (unverified - mirror only). Plata está en watchlist.",
+   "discovered_via": "job-scout"
+  },
+  {
+   "platform": "Indeed",
+   "company": "Conexion y Servicio S.A.S (fintech)",
+   "role": "Director(a) de Tecnología (CTO) - AWS & Google Cloud",
+   "url": "https://to.indeed.com/aaktb9rnt2r4",
+   "date_found": "2026-11-11",
+   "description": "Lead technology strategy, architecture, security and operation of a fintech on AWS and GCP; defines data/analytics/governance strategy; manages budget, FinOps, vendors; leads dev, infra, DevOps, QA teams. 10+ yrs tech, 5+ leading engineering. Permanent, Bogotá, onsite/hybrid. Posted Oct 26 2026.",
+   "score": 81,
+   "score_breakdown": {
+    "skills_match": 12,
+    "responsibilities_match": 15,
+    "title_match": 12,
+    "seniority_fit": 12,
+    "industry_fit": 10,
+    "location": 5,
+    "strategic_ownership_fit": 15
+   },
+   "tier": "top",
+   "previously_seen": false,
+   "url_broken": false,
+   "notes": "Es CTO (infra, ciberseguridad, DevSecOps), no foco datos/IA; gap de seguridad/infra; presencial/híbrido Bogotá; salario no informado."
+  },
+  {
+   "platform": "Búsqueda web (agregadores)",
+   "company": "Aimpoint Digital",
+   "role": "Head of Data Engineering Services - LATAM",
+   "url": "https://aimpoint-digital.breezy.hr/p/445cd89e1a78-head-of-data-engineering-services-latam",
+   "date_found": "2026-11-11",
+   "description": "Head of Data Engineering Services LATAM at AI/data consultancy; listing says based in Medellín (live in Medellín or relocate). Seen in prior sessions.",
+   "score": 77,
+   "score_breakdown": {
+    "skills_match": 20,
+    "responsibilities_match": 20,
+    "title_match": 15,
+    "seniority_fit": 14,
+    "industry_fit": 6,
+    "location": 2,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "tracker_only",
+   "previously_seen": true,
+   "url_broken": true,
+   "notes": "Reubicación a Medellín; Snowflake/Databricks probable; ya aparecía en sesiones anteriores. No re-verificado (ATS bloqueado)."
+  },
+  {
+   "platform": "Indeed",
+   "company": "Gallagher",
+   "role": "Lead Data Solutions & AI Engineer",
+   "url": "https://to.indeed.com/aa74qdcm27rq",
+   "date_found": "2026-10-08",
+   "description": "Lead Data Solutions & AI Engineer, Bogotá, posted Oct 8 2026 (visto en sesiones previas; puntaje previo 69-76).",
+   "score": 75,
+   "score_breakdown": {
+    "skills_match": 20,
+    "responsibilities_match": 18,
+    "title_match": 13,
+    "seniority_fit": 11,
+    "industry_fit": 8,
+    "location": 5,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "tracker_only",
+   "previously_seen": true,
+   "url_broken": false,
+   "notes": "Ya visto en sesiones previas."
+  },
+  {
+   "platform": "Indeed",
+   "company": "deuna",
+   "role": "Product Head of AI (Director/Sr Director of Product)",
+   "url": "https://to.indeed.com/aabpdggcxyk4",
+   "date_found": "2026-09-24",
+   "description": "Product Management Director/Sr Director for DEUNA's agentic AI product organization; leads Product Managers; 10+ yrs product management. Posted Sep 24 2026.",
+   "score": 73,
+   "score_breakdown": {
+    "skills_match": 8,
+    "responsibilities_match": 10,
+    "title_match": 13,
+    "seniority_fit": 12,
+    "industry_fit": 10,
+    "location": 5,
+    "strategic_ownership_fit": 15
+   },
+   "tier": "tracker_only",
+   "previously_seen": true,
+   "url_broken": false,
+   "notes": "Rol de Product Management, no ingeniería; requiere 10+ años en PM."
+  },
+  {
+   "platform": "Búsqueda web (agregadores)",
+   "company": "Findasense",
+   "role": "Global Head of Data Intelligence, Analytics and IA",
+   "url": "https://aijobs.app/global-head-of-data-intelligence-analytics-and-ia-findasense-7410148",
+   "date_found": "2026-11-11",
+   "description": "Global Head of Data Intelligence, Analytics and AI, Bogotá, full-time (snippet only).",
+   "score": 72,
+   "score_breakdown": {
+    "skills_match": 14,
+    "responsibilities_match": 18,
+    "title_match": 15,
+    "seniority_fit": 14,
+    "industry_fit": 6,
+    "location": 5,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "tracker_only",
+   "previously_seen": false,
+   "url_broken": true,
+   "notes": "Solo snippet de agregador, sin fecha; no verificado."
+  },
+  {
+   "platform": "Búsqueda web (JobLeads)",
+   "company": "Urbania",
+   "role": "Head of Artificial Intelligence",
+   "url": "https://www.jobleads.com/co/job/head-of-artificial-intelligence--bogota--e4590a063599906e25972bd4a8a518952",
+   "date_found": "2026-11-11",
+   "description": "Head of AI, hybrid Bogotá, COP ~296-445M/year (snippet from aggregator).",
+   "score": 71,
+   "score_breakdown": {
+    "skills_match": 14,
+    "responsibilities_match": 18,
+    "title_match": 15,
+    "seniority_fit": 14,
+    "industry_fit": 5,
+    "location": 5,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "tracker_only",
+   "previously_seen": false,
+   "url_broken": true,
+   "notes": "Snippet de agregador; sin fecha ni JD; inmobiliaria (industria menos afín); no verificado."
+  },
+  {
+   "platform": "Indeed",
+   "company": "WAI",
+   "role": "Director, Enterprise AI Automation & Transformation",
+   "url": "https://to.indeed.com/aag97ds7jrwf",
+   "date_found": "2026-11-11",
+   "description": "Business-facing director building enterprise AI automation program: use-case pipeline, governance, ROI, adoption. 10+ yrs transformation/automation, no day-to-day technical ownership. Onsite per JD (listed 'Desde casa' in Indeed), up to 20% travel. Posted Oct 23 2026.",
+   "score": 70,
+   "score_breakdown": {
+    "skills_match": 8,
+    "responsibilities_match": 12,
+    "title_match": 15,
+    "seniority_fit": 13,
+    "industry_fit": 5,
+    "location": 2,
+    "strategic_ownership_fit": 15
+   },
+   "tier": "tracker_only",
+   "previously_seen": false,
+   "url_broken": false,
+   "notes": "Rol de negocio/transformación, no ingeniería de datos; el JD dice presencial y la ubicación no es clara (posible fuera de Colombia)."
+  },
+  {
+   "platform": "Indeed",
+   "company": "Scotiabank (ScotiaGBS)",
+   "role": "Manager, Business Intelligence & Projects (AML)",
+   "url": "https://to.indeed.com/aal9j2f9wyqm",
+   "date_found": "2026-11-11",
+   "description": "Lead BI team for AML Operations in Bogotá: Power BI dashboards, Python/SQL, forecasting/ML, process automation. 3+ yrs financial BI, 2+ yrs leading analytics teams, bilingual. Hybrid. Posted Oct 29 2026.",
+   "score": 70,
+   "score_breakdown": {
+    "skills_match": 17,
+    "responsibilities_match": 15,
+    "title_match": 12,
+    "seniority_fit": 11,
+    "industry_fit": 10,
+    "location": 5,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "tracker_only",
+   "previously_seen": false,
+   "url_broken": false,
+   "notes": "Rol de BI/reporting AML, menos arquitectura de datos; reporta a Senior Manager (alcance medio); híbrido Bogotá."
+  },
+  {
+   "platform": "Búsqueda web (agregadores)",
+   "company": "Edelman (DXI Hub)",
+   "role": "Head of Data Hub (DXI)",
+   "url": "https://jobs.lever.co/djeholdings/5278bf50-a052-4d05-b899-cc1758a4823e",
+   "date_found": "2026-11-11",
+   "description": "Head of Data Hub, Bogotá, full-time hybrid, leading a team of data specialists (snippet only).",
+   "score": 69,
+   "score_breakdown": {
+    "skills_match": 14,
+    "responsibilities_match": 16,
+    "title_match": 15,
+    "seniority_fit": 13,
+    "industry_fit": 6,
+    "location": 5,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "tracker_only",
+   "previously_seen": false,
+   "url_broken": true,
+   "notes": "Solo snippet; sector comunicaciones/agencia; JD no verificado (lever bloqueado)."
+  },
+  {
+   "platform": "Elempleo (WebSearch)",
+   "company": "NALSANI S.A.S.",
+   "role": "Director Ciencia de Datos e Inteligencia Artificial",
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/director-ciencia-de-datos-e-inteligencia-artificial-1886777903",
+   "date_found": "2026-10-07",
+   "description": "Director de Ciencia de Datos e IA, Bogotá, published Oct 7 2026, salary COP 15-18M (snippet).",
+   "score": 67,
+   "score_breakdown": {
+    "skills_match": 14,
+    "responsibilities_match": 16,
+    "title_match": 15,
+    "seniority_fit": 12,
+    "industry_fit": 5,
+    "location": 5,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "tracker_only",
+   "previously_seen": false,
+   "url_broken": false,
+   "notes": "Salario en el límite bajo (COP 15-18M/mes) para el nivel; JD no leído completo; publicado 7-oct."
+  },
+  {
+   "platform": "Indeed",
+   "company": "McKinsey & Company (QuantumBlack)",
+   "role": "Principal Data Engineer - QuantumBlack, AI by McKinsey",
+   "url": "https://to.indeed.com/aazk8ggpfpb6",
+   "date_found": "2026-11-11",
+   "description": "Lead multiple technical teams, architect enterprise data & AI platforms, Spark, Airflow, Databricks, Docker/K8s, DevOps/DataOps/MLOps; 10+ yrs; client-facing; English AND Portuguese required; willingness to travel. Bogotá/Lima/Santiago. Posted Oct 28 2026.",
+   "score": 66,
+   "score_breakdown": {
+    "skills_match": 26,
+    "responsibilities_match": 21,
+    "title_match": 12,
+    "seniority_fit": 14,
+    "industry_fit": 8,
+    "location": 5,
+    "strategic_ownership_fit": -20
+   },
+   "tier": "tracker_only",
+   "previously_seen": false,
+   "url_broken": false,
+   "notes": "Consultoría con proyectos en clientes; portugués requerido (gap); viaje; fuerte marca pero entregas por sprints en squads de cliente."
+  },
+  {
+   "platform": "Indeed",
+   "company": "Auxis",
+   "role": "Analytics Lead Manager",
+   "url": "https://to.indeed.com/aa9f2yplswv6",
+   "date_found": "2026-09-03",
+   "description": "Analytics Lead Manager, Bogotá, posted Sep 3 2026 (visto en sesiones previas).",
+   "score": 66,
+   "score_breakdown": {
+    "skills_match": 15,
+    "responsibilities_match": 15,
+    "title_match": 13,
+    "seniority_fit": 12,
+    "industry_fit": 6,
+    "location": 5,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "tracker_only",
+   "previously_seen": true,
+   "url_broken": false,
+   "notes": "Ya visto en sesiones previas."
+  }
+ ],
+ "discarded_jobs": [
+  {
+   "company": "EX Squared (cliente SaaS CRM EE.UU.)",
+   "role": "Data & AI Engineering Lead",
+   "url": "https://to.indeed.com/aah292kxqwyj",
+   "score": 62
+  },
+  {
+   "company": "Aimpoint Digital",
+   "role": "Lead Data Engineer 2026 - US, COL, UK",
+   "url": "https://to.indeed.com/aadmkxyvrhrr",
+   "score": 50
+  },
+  {
+   "company": "EPAM Systems",
+   "role": "Lead Data Engineer (AWS MWAA/PySpark)",
+   "url": "https://to.indeed.com/aa6py9bbjkyl",
+   "score": 52
+  },
+  {
+   "company": "MSD",
+   "role": "Assoc. Dir., Data Architect Manager (clinical data)",
+   "url": "https://to.indeed.com/aaggqhgzfvd8",
+   "score": 53
+  },
+  {
+   "company": "AspenView Technology Partners",
+   "role": "Data & AI Practice Lead",
+   "url": "https://www.jobleads.com/co/job/data-ai-practice-lead--bogota--e30d5350c0db5ff7549fdceabd811c158",
+   "score": 54
+  },
+  {
+   "company": "Experian",
+   "role": "Head of Fraud",
+   "url": "https://to.indeed.com/aapndg44gssl",
+   "score": 40
+  },
+  {
+   "company": "Deloitte",
+   "role": "Gerente Artificial Intelligence and Data (jun-2026, antigua)",
+   "url": "https://to.indeed.com/aa4yncrjwgcr",
+   "score": 55
+  },
+  {
+   "company": "Coupa",
+   "role": "AI Engineer - 11952",
+   "url": "https://to.indeed.com/aaw64f6dly9g",
+   "score": 50
+  },
+  {
+   "company": "Devlane",
+   "role": "Sr. AI Engineer",
+   "url": "https://to.indeed.com/aa7h69wtzn4w",
+   "score": 50
+  },
+  {
+   "company": "TMF Group",
+   "role": "Data Architect",
+   "url": "https://to.indeed.com/aajvydlh7dcg",
+   "score": 45
+  },
+  {
+   "company": "Cuesta Partners",
+   "role": "Data Tech Lead | Latam (feb-2026, antigua)",
+   "url": "https://to.indeed.com/aayv2lytxwcp",
+   "score": 40
+  },
+  {
+   "company": "Mercado Livre",
+   "role": "AI Engineer",
+   "url": "https://to.indeed.com/aabxbllxmj4v",
+   "score": 45
+  }
+ ]
+}
