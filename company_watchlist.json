@@ -1,12 +1,9 @@
 {
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-17",
   "sources_failed": [
-    "bloomberglinea.com (site: filter returned limited 2026 articles this run)",
+    "techcrunch.com (no 2026 Colombia-specific fintech results this run)",
     "api.lever.co (ENOTFOUND — direct fetch blocked in cloud session)",
-    "api.ashbyhq.com (ENOTFOUND — direct fetch blocked in cloud session)",
-    "builtin.com (ENOTFOUND — direct fetch blocked in cloud session)",
-    "jobs.generalcatalyst.com (ENOTFOUND — direct fetch blocked in cloud session)",
-    "careers-page.com (ENOTFOUND — direct fetch blocked in cloud session)"
+    "api.ashbyhq.com (ENOTFOUND — direct fetch blocked in cloud session)"
   ],
   "companies": [
     {
@@ -45,7 +42,7 @@
       "source_url": "https://techcrunch.com/2022/07/08/deuna-latin-americas-one-click-checkout-series-a/",
       "funding_stage": null,
       "first_seen": "2026-08-26",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-17",
       "status": "vista",
       "fit_reason": "AI-powered payment orchestration scaling across LATAM; Engineering Manager AI and AI Engineering Lead are both greenfield architecture-ownership roles defining AI platform tooling for LatAm, US, and Europe — Javier's GenAI/RAG, cloud architecture, and team leadership background is a direct fit.",
       "job_status": "con_vacante",
@@ -111,15 +108,15 @@
       "name": "plata",
       "sector": "fintech",
       "signal": "expansion_colombia",
-      "signal_detail": "Mexican digital bank (now Banco Plata) entered Colombia with debit/savings products; raised $405M at $5B valuation (April 2026); CNBV banking license obtained Feb 2026; Analytics Lead Colombia and Data Engineer Middle/Middle+ roles open",
-      "source_url": "https://startup.jobs/company/plata-card",
+      "signal_detail": "Mexican digital bank (now Banco Plata) entered Colombia with debit/savings products; raised $405M at $5B valuation (April 2026) + INCREASED Colombia investment commitment from US$60M to US$400M (November 16, 2026 — 'Milagro Week' announcement); CNBV banking license obtained Feb 2026; Head of Analytics [Colombian market] confirmed active on Greenhouse/EchoJobs (Apr 2026, still live Nov 2026) — greenfield role building analytics and data governance framework from scratch with top-management visibility; Data Engineer Middle/Middle+ [DWH - External Reporting] also active on Greenhouse; Analytics Engineer Middle/Middle+ [DWH - Risk Domain] also active",
+      "source_url": "https://www.semana.com/economia/empresas/articulo/segundo-campanazo-de-la-milagro-week-plata-sa-aumenta-su-inversion-en-colombia-a-us400-millones/202656/",
       "funding_stage": "serie_c_plus",
       "first_seen": "2026-08-26",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-17",
       "status": "vista",
-      "fit_reason": "Neobank with bank-level ambitions entering Colombia fresh — $5B valuation and 161+ open positions signals aggressive data platform build ahead; Javier's neobank-scale data platform experience (BigQuery, GCP, Python) matches the infrastructure leadership role that will be needed.",
-      "job_status": "objetivo_proactivo",
-      "matched_job_url": null
+      "fit_reason": "Neobank with bank-level ambitions now committing US$400M to Colombia (7× increase in one announcement); greenfield Head of Analytics role builds the Colombia analytics + data governance framework from scratch with C-suite visibility — Javier's BigQuery/GCP/Python leadership profile is a strong fit for this scale of data platform mandate.",
+      "job_status": "con_vacante",
+      "matched_job_url": "https://echojobs.io/job/plata-card-head-of-analytics-colombian-market-i7tsd"
     },
     {
       "name": "clara",
@@ -251,7 +248,7 @@
       "name": "revolut",
       "sector": "fintech",
       "signal": "expansion_colombia",
-      "signal_detail": "Received Colombian banking license from SFC on September 15, 2026; COP$146B initial investment; 200K users on waitlist; building team in Bogotá for 2026/2027 launch; Data Analyst (Finance) confirmed open for Colombia remote (still visible Oct 2026); Senior/Lead Software Engineer (Data) confirmed on Revolut careers (Jun 2026) but geo-restricted to Europe/Dubai",
+      "signal_detail": "Received Colombian banking license from SFC on September 15, 2026; COP$146B initial investment (now revised upward to COP$400B per Valora Analitik Nov 2026 — commercial launch now planned for early 2027); 200K users on waitlist; building team in Bogotá; Data Analyst (Finance) confirmed open for Colombia remote (still visible Oct 2026); Senior/Lead Software Engineer (Data) confirmed on Revolut careers (Jun 2026) but geo-restricted to Europe/Dubai",
       "source_url": "https://www.bloomberglinea.com/latinoamerica/colombia/revolut-invertira-cop146-mil-millones-en-colombia-para-convertirse-en-banco/",
       "funding_stage": "publico",
       "first_seen": "2026-09-17",
@@ -489,11 +486,11 @@
       "name": "cobre",
       "sector": "fintech",
       "signal": "both",
-      "signal_detail": "Latin America's #1 instant B2B payments platform (Colombia HQ); $40B projected annual volume 2026 (doubling from $17B in 2025); acquired SPEI-connected company for Mexico entry; $35M Series B from Oak HC/FT ($80M+ total); 13M+ monthly transactions; 170 employees; Lead Data Engineer confirmed still active on Built In (Nov 2026) — reports to CDO, leads 15+ across DE/ML/risk analytics/PM; stack: Snowflake, AWS, Terraform, Airflow, dbt, Kafka, ELK, Sigma; Senior Data Engineer and Data Engineer also active; named Fast Company Most Innovative Company in Latin America 2026",
+      "signal_detail": "Latin America's #1 instant B2B payments platform (Colombia HQ); $40B projected annual volume 2026 (doubling from $17B in 2025); acquired SPEI-connected company for Mexico entry; $35M Series B from Oak HC/FT ($80M+ total); 13M+ monthly transactions; 170 employees; Lead Data Engineer confirmed still active on aggregators (Nov 2026) — reports to CDO, leads 15+ across DE/ML/risk analytics/PM; stack: Snowflake, AWS, Terraform, Airflow, dbt, Kafka, ELK, Sigma; Senior Data Engineer and Data Engineer also active on Greenhouse/Oak HC; named Fast Company Most Innovative Company in Latin America 2026",
       "source_url": "https://www.valoraanalitik.com/cobre-levanta-us35-millones-en-serie-b-para-impulsar-expansion-en-colombia-y-mexico/",
       "funding_stage": "serie_b",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-17",
       "status": "vista",
       "fit_reason": "Colombian-born B2B payments platform at explosive scale ($40B volume, Mexico expansion) with a Lead Data Engineer opening that reports to the CDO and leads 15+ people; stack (Airflow, dbt, Kafka, Snowflake, Terraform, Python/SQL) is Javier's core toolbox; 'assess the current platform and build a plan' is a perfect mandate for a senior architect with Javier's 17+ years of financial-sector data engineering leadership.",
       "job_status": "con_vacante",
@@ -615,15 +612,15 @@
       "name": "felix pago",
       "sector": "fintech",
       "signal": "both",
-      "signal_detail": "Miami-based AI remittance fintech ($200M total raised Sep 2026: $87M Series C equity led by a16z + $113M debt from General Catalyst); WhatsApp-based Cognitive Financial Companion expanding beyond remittances into multi-product financial platform; Colombia is active hiring geography (Bogotá engineering team growing); NEW: Data Engineering Manager confirmed Bogotá Hybrid (Oct 27, 2026) — leads core DE squad + DBA team, GCP/BigQuery/dbt/Apache Flink, AI-native mindset required; also AI Engineer (Agents) confirmed remote Colombia; Analytics Engineer + Data Engineer also live; 4 concurrent data/AI roles",
+      "signal_detail": "Miami-based AI remittance fintech ($200M total raised Sep 2026: $87M Series C equity led by a16z + $113M debt from General Catalyst); WhatsApp-based Cognitive Financial Companion expanding beyond remittances into multi-product financial platform; Colombia is active hiring geography (Bogotá engineering team growing); Data Engineering Manager confirmed Bogotá Hybrid (Oct 27, 2026, still visible Nov 2026 on General Catalyst) — leads core DE squad + DBA team, GCP/BigQuery/dbt/Apache Flink, AI-native mindset required; also AI Engineer (Agents) confirmed remote Colombia; Analytics Engineer + Data Engineer also live; 4 concurrent data/AI roles",
       "source_url": "https://www.crowdfundinsider.com/2026/09/304999-miami-based-fintech-felix-closes-equity-and-debt-round-to-expand-operations-past-remittances/",
       "funding_stage": "serie_c_plus",
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-17",
       "status": "vista",
-      "fit_reason": "AI-first financial platform pivoting from remittances to full financial services on $200M fresh capital; NEW Data Engineering Manager (Bogotá Hybrid) leads core DE squad + DBA team on GCP/BigQuery/dbt/Flink — Javier's GCP, BigQuery, Python, dbt expertise + team leadership profile is a direct technical match; company scale ($200M) and Colombia engineering hub growth suggest strong strategic ownership opportunity.",
+      "fit_reason": "AI-first financial platform pivoting from remittances to full financial services on $200M fresh capital; Data Engineering Manager (Bogotá Hybrid) leads core DE squad + DBA team on GCP/BigQuery/dbt/Flink — Javier's GCP, BigQuery, Python, dbt expertise + team leadership profile is a direct technical match; company scale ($200M) and Colombia engineering hub growth suggest strong strategic ownership opportunity.",
       "job_status": "con_vacante",
-      "matched_job_url": "https://freehire.me/jobs/data-engineering-manager-felix-o4pifcfb"
+      "matched_job_url": "https://jobs.generalcatalyst.com/companies/felix-2-5bbe8bb6-3263-4a82-af9b-85191483f0b9/jobs/98090267-data-engineering-manager"
     },
     {
       "name": "arq",
@@ -634,7 +631,7 @@
       "funding_stage": null,
       "first_seen": "2026-11-10",
       "last_seen": "2026-11-10",
-      "status": "nueva",
+      "status": "vista",
       "fit_reason": "Colombia's fastest-growing digital financial platform ($10B+ transactions, 3M users) expanding from USD savings to crypto, credit, and B2B payments; $70M capital raise with top-tier investors signals aggressive data infrastructure needs; Javier's Python/GCP data engineering background fits the platform required to support multi-product finance at scale — proactive outreach to their Bogotá engineering hub is well-timed given the product expansion.",
       "job_status": "objetivo_proactivo",
       "matched_job_url": null
@@ -648,7 +645,7 @@
       "funding_stage": "serie_a",
       "first_seen": "2026-11-10",
       "last_seen": "2026-11-10",
-      "status": "nueva",
+      "status": "vista",
       "fit_reason": "Colombian-born crypto/stablecoin payments platform backed by Paradigm and Coinbase Ventures; expanding into B2B enterprise payments across 12 LATAM countries demands a data platform for transaction analytics, fraud detection, and compliance; Javier's Python/GCP pipeline + financial-sector background maps to the data infrastructure layer needed as they scale — small team at Series A means a data leader hire could be greenfield opportunity.",
       "job_status": "objetivo_proactivo",
       "matched_job_url": null
@@ -662,8 +659,36 @@
       "funding_stage": "serie_c_plus",
       "first_seen": "2026-11-10",
       "last_seen": "2026-11-10",
-      "status": "nueva",
+      "status": "vista",
       "fit_reason": "Card BaaS platform powering 150+ LATAM fintechs' card issuance; Colombia is a primary hub with multiple active clients; as they add stablecoin cards + AI chargeback tools + Bre-B real-time rails, data infrastructure needs at platform scale will require senior data engineering leadership — Javier's GCP/Python/Airflow expertise and financial-sector background fits the data layer of this multi-product B2B fintech infrastructure platform.",
+      "job_status": "objetivo_proactivo",
+      "matched_job_url": null
+    },
+    {
+      "name": "palomma",
+      "sector": "fintech",
+      "signal": "hiring_velocity",
+      "signal_detail": "Colombian real-estate fintech (Medellín); $14M total raised ($10M Series A led by Cometa + $4M from Golpe, Y Combinator, Insignia — November 2026); processes rent for 200K+ tenants across 500+ agencies; plans $4M toward sales/collection platform, $6M toward credit products and AI capabilities; targeting Mexico, Brazil, US expansion; founded by ex-Nubank executives; AI-native bank vision for real estate; no specific data engineering leadership roles confirmed at time of sweep",
+      "source_url": "https://news.crunchbase.com/fintech/nubank-alum-colombia-startup-palomma-ai-rental-services/",
+      "funding_stage": "serie_a",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "status": "nueva",
+      "fit_reason": "YC + Cometa-backed Colombian real-estate fintech built by ex-Nubank executives; fresh $14M Series A earmarks $6M for AI capabilities and credit products — data infrastructure build-out is next; Javier's GCP/Python/BigQuery/AI platform expertise combined with financial-sector background is a natural fit for the first senior data hire as they scale rental credit and international expansion.",
+      "job_status": "objetivo_proactivo",
+      "matched_job_url": null
+    },
+    {
+      "name": "duppla",
+      "sector": "fintech",
+      "signal": "expansion_colombia",
+      "signal_detail": "Colombian housing finance proptech (rent-to-own / leasing model); raised US$60M led by Patria Investments (July 2026, their first VC investment in Colombia); 300+ families served in Bogotá; expanding to Medellín and other LATAM markets; also backed by Skandia Ventures, COMETA, Grupo Pegasus, NAZCA; packages rental income into residential investment products for institutional investors; no specific data engineering roles confirmed at time of sweep",
+      "source_url": "https://latamlist.com/duppla-raises-60m-to-expand-alternative-home-financing-in-colombia/",
+      "funding_stage": null,
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "status": "nueva",
+      "fit_reason": "Colombian proptech-fintech managing dual-sided marketplace (tenant financing + institutional investor products) now scaling nationally on $60M; credit risk modeling, investor reporting, and transaction data infrastructure are mission-critical at this funding level — Javier's financial-sector data engineering expertise and pipeline/cloud platform skills would build the data layer enabling both sides of Duppla's model.",
       "job_status": "objetivo_proactivo",
       "matched_job_url": null
     }
