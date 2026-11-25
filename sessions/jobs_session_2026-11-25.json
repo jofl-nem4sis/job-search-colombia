@@ -1,0 +1,434 @@
+{
+ "session_date": "2026-11-25",
+ "search_params": {
+  "keywords": [
+   "Senior Data Engineer",
+   "Lead Data Engineer",
+   "Data Engineering Manager",
+   "AI Engineer",
+   "ML Engineer",
+   "Data Architect",
+   "GCP Data Engineer",
+   "Analytics Lead",
+   "AI Solution Architect",
+   "Head of Data",
+   "Head of Analytics",
+   "Head of AI",
+   "Director Analytics",
+   "Director Data",
+   "VP Data",
+   "Chief Data Officer",
+   "Gerente de Datos",
+   "Director de Datos",
+   "Lider de Datos",
+   "Arquitecto de Datos"
+  ],
+  "top_n": 10
+ },
+ "platforms_searched": [
+  "Indeed",
+  "LinkedIn",
+  "Michael Page",
+  "Glassdoor",
+  "Computrabajo",
+  "SmartRecruiters",
+  "BlueSteps",
+  "Acierta Headhunter",
+  "Magneto365",
+  "Más Empleo ANDI",
+  "T-Mapp"
+ ],
+ "platforms_failed": [
+  "LinkedIn",
+  "Glassdoor",
+  "SmartRecruiters",
+  "BlueSteps",
+  "Acierta Headhunter",
+  "Más Empleo ANDI",
+  "Michael Page",
+  "Magneto365",
+  "Computrabajo"
+ ],
+ "zero_results": [
+  "Más Empleo ANDI",
+  "SmartRecruiters",
+  "BlueSteps",
+  "Acierta Headhunter"
+ ],
+ "platform_method": {
+  "Indeed": "MCP (search_jobs/get_job_details) - OK",
+  "LinkedIn": "curl (000/blocked) -> WebSearch site: sin ofertas, solo perfiles",
+  "Michael Page": "curl/WebFetch ENOTFOUND -> WebSearch: solo roles junior/SAP; sin match",
+  "Glassdoor": "curl bloqueado -> WebSearch: 0 páginas de glassdoor",
+  "Computrabajo": "curl bloqueado -> WebSearch snippets sin ofertas relevantes (parcial)",
+  "SmartRecruiters": "no accesible (egress bloqueado); no se intentó WebSearch específico",
+  "BlueSteps": "membership/bloqueado; no reintentado",
+  "Acierta Headhunter": "no accesible (egress bloqueado)",
+  "Magneto365": "curl/WebFetch ENOTFOUND -> WebSearch snippets (parcial)",
+  "Más Empleo ANDI": "no accesible",
+  "T-Mapp": "WebSearch (careers-page.com snippet) - parcial",
+  "1l watchlist": "ATS APIs (Greenhouse/Lever) bloqueadas por egress; verificación vía WebSearch/Indeed solamente"
+ },
+ "all_jobs": [
+  {
+   "platform": "Indeed",
+   "company": "Scotiabank",
+   "role": "Director, Data Engineering (Bogotá)",
+   "url": "https://jobs.scotiabank.com/job/Bogota-Director%2C-Data-Engineering-DC/604798617/",
+   "date_found": "2026-11-25",
+   "description": "Director of Data Engineering, Bogotá. Prior sessions scored 96; CazVid copy indicates validity until Oct 27 2026, probably expired.",
+   "score": 106,
+   "score_breakdown": {
+    "skills_match": 22,
+    "responsibilities_match": 24,
+    "title_match": 15,
+    "seniority_fit": 15,
+    "industry_fit": 10,
+    "location": 5,
+    "strategic_ownership_fit": 15
+   },
+   "tier": "top",
+   "previously_seen": true,
+   "url_broken": true,
+   "notes": "Reverificado solo por snippet de búsqueda (jobs.scotiabank.com bloqueado en sandbox); stack Azure Databricks. Confirmar vigencia."
+  },
+  {
+   "platform": "Búsqueda web (agregadores)",
+   "company": "Kala (vía Marathon Talent)",
+   "role": "Head of Data",
+   "url": "https://www.careers-page.com/marathon-talent/job/X95459X3",
+   "date_found": "2026-11-25",
+   "description": "Head of Data in Bogotá reporting to CEO at LATAM fintech for underbanked customers. Seen in prior sessions (score 92).",
+   "score": 106,
+   "score_breakdown": {
+    "skills_match": 22,
+    "responsibilities_match": 24,
+    "title_match": 15,
+    "seniority_fit": 15,
+    "industry_fit": 10,
+    "location": 5,
+    "strategic_ownership_fit": 15
+   },
+   "tier": "top",
+   "previously_seen": true,
+   "url_broken": true,
+   "notes": "Reportado al CEO; aparece en búsqueda web pero careers-page.com bloqueado; vigencia no reverificada. Vía headhunter.",
+   "discovered_via": "job-scout"
+  },
+  {
+   "platform": "Búsqueda web (agregadores)",
+   "company": "Plata Card",
+   "role": "Head of Analytics [Colombian market]",
+   "url": "https://wantapply.com/head-of-analytics-at-plata-card",
+   "date_found": "2026-11-25",
+   "description": "Head of Analytics for the Colombian market at Plata Card (fintech), remote Colombia/Mexico, GMT-5/GMT-6. Snippet only; JD not fetched (host blocked).",
+   "score": 92,
+   "score_breakdown": {
+    "skills_match": 15,
+    "responsibilities_match": 18,
+    "title_match": 15,
+    "seniority_fit": 14,
+    "industry_fit": 10,
+    "location": 5,
+    "strategic_ownership_fit": 15
+   },
+   "tier": "top",
+   "previously_seen": true,
+   "url_broken": true,
+   "notes": "No reverificado esta semana (wantapply/echojobs bloqueados); confirmar vigencia.",
+   "discovered_via": "job-scout"
+  },
+  {
+   "platform": "Indeed",
+   "company": "Findasense",
+   "role": "Global Head of Data Intelligence, Analytics and IA",
+   "url": "https://to.indeed.com/aap2nsmkgtbn",
+   "date_found": "2026-11-25",
+   "description": "Lidera la unidad global de Inteligencia (Medición, Datos, Martech, Reportería) y equipos de Data Science, Data Engineering, Social Media Analysts. Define roadmap, gobernanza, MLOps/LLMOps, supervisa ingeniería de datos (batch/streaming), alinea stakeholders C-level, gestiona talento y presupuesto. Requisitos: +7 años liderando equipos de datos/IA en contextos multicountry; metodologías y gobernanza; social listening, Salesforce Marketing Cloud, SQL/NoSQL; deseable Python, Airflow, AWS/GCP/Azure. Contrato indefinido, híbrido. Publicado 13 nov 2026. Bogotá.",
+   "score": 87,
+   "score_breakdown": {
+    "skills_match": 12,
+    "responsibilities_match": 20,
+    "title_match": 15,
+    "seniority_fit": 15,
+    "industry_fit": 5,
+    "location": 5,
+    "strategic_ownership_fit": 15
+   },
+   "tier": "top",
+   "previously_seen": true,
+   "url_broken": false,
+   "notes": "Dominio marketing/social listening (gap de dominio); resto del stack solo deseable."
+  },
+  {
+   "platform": "Indeed",
+   "company": "Scotiabank",
+   "role": "Data Engineer Lead (Bogotá)",
+   "url": "https://jobs.scotiabank.com/job/Bogota-Data-Engineer-Lead-DC/601585817/",
+   "date_found": "2026-11-25",
+   "description": "Líder técnico de ingenieros de datos sobre Azure Databricks (descripción de la sesión anterior; no re-verificada).",
+   "score": 84,
+   "score_breakdown": {
+    "skills_match": 20,
+    "responsibilities_match": 20,
+    "title_match": 14,
+    "seniority_fit": 14,
+    "industry_fit": 10,
+    "location": 5,
+    "strategic_ownership_fit": 1
+   },
+   "tier": "top",
+   "previously_seen": true,
+   "url_broken": true,
+   "notes": "Foco GCP; listado visto solo por snippet; ID 601585817 es antiguo, posible cierre. Confirmar vigencia."
+  },
+  {
+   "platform": "Indeed",
+   "company": "Mastercard",
+   "role": "Director, Subject Matter Expert – AI (AI & Data Strategy, LatAm hispana)",
+   "url": "https://to.indeed.com/aav9fdytgfbc",
+   "date_found": "2026-11-25",
+   "description": "Lead the definition and communication of Data & AI strategy across Spanish-speaking LatAm at executive level (Mastercard Advisors & Client Services, AI & Analytics practice). Translate business needs into AI & agentic architectures, technical leadership and architectural governance, evaluate/select AI technologies, responsible AI, guide PoC to production, support early-stage sales and client discovery, thought leadership, mentor delivery teams. Requirements: BS/MS in CS/Eng/AI; consulting, innovation, product strategy or front-office experience; C-level communication; GenAI, LLMs, RAG, agentic AI; cloud and AI services, MLOps; advanced English. Posted Oct 28, 2026. Bogotá.",
+   "score": 81,
+   "score_breakdown": {
+    "skills_match": 18,
+    "responsibilities_match": 18,
+    "title_match": 15,
+    "seniority_fit": 15,
+    "industry_fit": 10,
+    "location": 5,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "top",
+   "previously_seen": false,
+   "url_broken": false,
+   "notes": "Rol consultivo/pre-venta (client-facing); no es ownership de plataforma interna. Publicado hace ~4 semanas."
+  },
+  {
+   "platform": "WebSearch (Magneto365)",
+   "company": "Confidencial (vía Magneto365)",
+   "role": "Director de Datos y Analítica",
+   "url": "https://www.magneto365.com/co/empleos/director-de-datos-y-analitica-1110868",
+   "date_found": "2026-11-25",
+   "description": "Solo snippet (WebSearch): Director de Datos y Analítica, indefinido, 1 cupo; dirige la estrategia y la gobernanza de datos para todas las unidades de negocio y define la hoja de ruta analítica institucional. Publicado 2026-10-22.",
+   "score": 79,
+   "score_breakdown": {
+    "skills_match": 8,
+    "responsibilities_match": 17,
+    "title_match": 15,
+    "seniority_fit": 14,
+    "industry_fit": 5,
+    "location": 5,
+    "strategic_ownership_fit": 15
+   },
+   "tier": "tracker_only",
+   "previously_seen": true,
+   "url_broken": true,
+   "notes": "Publicado 2026-10-22 (>14 días); magneto365.com bloqueado, visto por snippet. Empresa confidencial."
+  },
+  {
+   "platform": "Indeed",
+   "company": "goop x trolley.ai",
+   "role": "Director, AI, Agents & Data Intelligence",
+   "url": "https://to.indeed.com/aag6s6xq4nhh",
+   "date_found": "2026-11-25",
+   "description": "Owns AI, agents and data intelligence across goop/Trolley AI; builds custom LLM agents (MCP), one trusted view of the business, partners with Co-CEOs, guides small data team. Independent contractor via Deel, USD 6,000-7,500/month, 6h overlap with Pacific time. 8-10+ yrs, 2-3+ yrs leading; SQL, Python, BigQuery/Snowflake, Shopify/NetSuite. Posted Nov 3, 2026.",
+   "score": 77,
+   "score_breakdown": {
+    "skills_match": 18,
+    "responsibilities_match": 20,
+    "title_match": 15,
+    "seniority_fit": 14,
+    "industry_fit": 5,
+    "location": 5,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "tracker_only",
+   "previously_seen": true,
+   "url_broken": false,
+   "notes": "Contrato independiente (no empleo), sin beneficios; USD 6-7.5k/mes."
+  },
+  {
+   "platform": "Indeed",
+   "company": "Gallagher",
+   "role": "Lead Data Solutions & AI Engineer",
+   "url": "https://to.indeed.com/aagb9p4bftlv",
+   "date_found": "2026-11-25",
+   "description": "Lead Data Solutions & AI Engineer, Gallagher, Bogotá. Hands-on technical leader: diseña plataformas de datos y pipelines ETL/ELT con Azure Data Factory, Databricks, Synapse, Azure SQL, SQL Server; desarrolla modelos AI/ML y soluciones con LLMs, RAG, vector DBs (LangChain, LlamaIndex); gobierno y seguridad; mentoría. Requisitos: inglés avanzado, 10+ años en data engineering (7+ en ecosistema Microsoft), 2+ años en AI/ML, experiencia fuerte en ADF, Databricks, Synapse, DevOps.",
+   "score": 74,
+   "score_breakdown": {
+    "skills_match": 16,
+    "responsibilities_match": 18,
+    "title_match": 13,
+    "seniority_fit": 14,
+    "industry_fit": 8,
+    "location": 5,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "tracker_only",
+   "previously_seen": true,
+   "url_broken": false,
+   "notes": "REQUIERE Azure Data Factory/Synapse (gap duro). Publicado 2026-10-08."
+  },
+  {
+   "platform": "Elempleo (vía búsqueda web)",
+   "company": "Confidencial",
+   "role": "Líder de datos y analítica (Bogotá)",
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-datos-y-analitica-1886782019",
+   "date_found": "2026-11-25",
+   "description": "Snippet: lidera equipos de data engineering, business intelligence y data science en Bogotá. JD completo no verificado (sitio bloqueado).",
+   "score": 71,
+   "score_breakdown": {
+    "skills_match": 18,
+    "responsibilities_match": 18,
+    "title_match": 12,
+    "seniority_fit": 12,
+    "industry_fit": 6,
+    "location": 5,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "tracker_only",
+   "previously_seen": false,
+   "url_broken": true,
+   "notes": "No verificado - solo snippet; sin fecha visible."
+  },
+  {
+   "platform": "Indeed",
+   "company": "Pluxee",
+   "role": "Lead Architect",
+   "url": "https://to.indeed.com/aahtzfw8hjjr",
+   "date_found": "2026-11-25",
+   "description": "Enterprise Architecture team: lead design/delivery of cross-domain architecture (apps, data, infrastructure, integration), architecture standards and governance, mentor architects. 12+ yrs IT, 6+ architecture, TOGAF/ArchiMate, cloud architecture, UML/ArchiMate modeling. Hybrid, Bogotá. Posted Nov 20, 2026.",
+   "score": 70,
+   "score_breakdown": {
+    "skills_match": 10,
+    "responsibilities_match": 16,
+    "title_match": 14,
+    "seniority_fit": 15,
+    "industry_fit": 10,
+    "location": 5,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "tracker_only",
+   "previously_seen": false,
+   "url_broken": false,
+   "notes": "Arquitectura empresarial genérica, no específicamente datos/IA."
+  },
+  {
+   "platform": "Indeed",
+   "company": "Mastercard",
+   "role": "Director, AI & Data Governance – Data Stewardship & Governance Enablement",
+   "url": "https://to.indeed.com/aacrq6bqzkw6",
+   "date_found": "2026-11-25",
+   "description": "Lead data stewardship networks, business glossary/CDEs/catalog, adoption of governance framework (DAMA-DMBOK), governance adherence program, metadata and lineage. Reports to a Director, AI & Data Governance. CDMP a plus, C1 English. Posted Oct 16, 2026. Bogotá.",
+   "score": 68,
+   "score_breakdown": {
+    "skills_match": 12,
+    "responsibilities_match": 14,
+    "title_match": 15,
+    "seniority_fit": 12,
+    "industry_fit": 10,
+    "location": 5,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "tracker_only",
+   "previously_seen": false,
+   "url_broken": false,
+   "notes": "Gobierno de datos (DAMA encaja) pero reporta a otro Director, poco técnico; ~5.5 semanas."
+  },
+  {
+   "platform": "Indeed",
+   "company": "MSD",
+   "role": "Assoc. Dir., Data Architect Manager",
+   "url": "https://to.indeed.com/aawxkdscqphw",
+   "date_found": "2026-11-25",
+   "description": "Lidera equipo de programación/reporting y data engineering para tecnología clínica (EDC, RTSM, eCOA); arquitectura de integración, modelos de datos, capa semántica; people management; requiere SQL/Python/SAS/R y conocimiento de GxP/ICH, MedDRA. 8+ años (4 con maestría) y 2+ años gestionando gente. Híbrido, Bogotá. Cierra 28 nov 2026.",
+   "score": 68,
+   "score_breakdown": {
+    "skills_match": 14,
+    "responsibilities_match": 16,
+    "title_match": 15,
+    "seniority_fit": 13,
+    "industry_fit": 5,
+    "location": 5,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "tracker_only",
+   "previously_seen": false,
+   "url_broken": false,
+   "notes": "Requiere dominio clínico/GxP (sector pharma); cierra el 28-nov."
+  },
+  {
+   "platform": "Indeed",
+   "company": "LawnStarter",
+   "role": "Lead Analytics Engineer, Data Governance & Platform",
+   "url": "https://to.indeed.com/aa7bnsmp9f6q",
+   "date_found": "2026-11-25",
+   "description": "Hands-on first owner of data governance (monitors, lineage, semantic layer, Segment event catalog) on Redshift, dbt, Airflow, Lightdash; AI-native; may grow into manager. Contractor USD 75-100k/yr, fully remote. Posted Nov 16, 2026.",
+   "score": 66,
+   "score_breakdown": {
+    "skills_match": 18,
+    "responsibilities_match": 14,
+    "title_match": 12,
+    "seniority_fit": 12,
+    "industry_fit": 5,
+    "location": 5,
+    "strategic_ownership_fit": 0
+   },
+   "tier": "tracker_only",
+   "previously_seen": true,
+   "url_broken": false,
+   "notes": "Muy hands-on, contractor; rol de IC con potencial de crecimiento."
+  }
+ ],
+ "discarded_jobs": [
+  {
+   "company": "Aimpoint Digital",
+   "role": "Lead Data Engineer 2026- US, COL, UK",
+   "url": "https://to.indeed.com/aaglv4kgwxzt",
+   "score": 46
+  },
+  {
+   "company": "WAI",
+   "role": "Director, Enterprise AI Automation & Transformation",
+   "url": "https://to.indeed.com/aab4g8qm7pgx",
+   "score": 58
+  },
+  {
+   "company": "Visa",
+   "role": "Director, Visa Consulting and Analytics (VCA)",
+   "url": "https://to.indeed.com/aa9vptfsgg8s",
+   "score": 54
+  },
+  {
+   "company": "Scotiabank (ScotiaGBS)",
+   "role": "Manager, Business Intelligence & Projects (AML)",
+   "url": "https://to.indeed.com/aadxzl8hpvjk",
+   "score": 63
+  },
+  {
+   "company": "AXA Colpatria",
+   "role": "Líder de Datos e Inteligencia Artificial",
+   "url": "https://www.magneto365.com/co/empresas/axa-colpatria/empleos/021064-lider-datos-e-inteligencia-artificial-seg-bta-torre-colpatria-902199",
+   "score": 63
+  },
+  {
+   "company": "Confidencial (T-Mapp)",
+   "role": "Líder de Transformación de datos e IA",
+   "url": "https://careers-page.com/tmapp-jobs/job/8X79643R",
+   "score": 60
+  },
+  {
+   "company": "EPAM Systems",
+   "role": "AI Solution Architect (varios)",
+   "url": "https://to.indeed.com/aaxr72vq8pzj",
+   "score": 55
+  },
+  {
+   "company": "deuna",
+   "role": "Product Head of AI",
+   "url": "https://to.indeed.com/aajydtqxfsfl",
+   "score": 60
+  }
+ ]
+}
